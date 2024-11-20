@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import logo from "./../../public/h1.jpg";
 
 const Header = () => {
   return (
@@ -8,34 +6,28 @@ const Header = () => {
       <nav className="container relative flex flex-wrap items-center justify-between mx-auto p-8">
         <Link
           href="/"
-          className="font-bold text-3xl hover:bg-yellow-300 hover:rounded-3xl"
+          className="font-bold text-3xl hover:shadow-none shadow-sm rounded-lg shadow-[#c4ff70] p-2 hover:text-black hover:bg-[#c4ff70] hover:rounded-lg"
         >
-          <Image
-            src={logo}
-            alt="logo"
-            width={124}
-            height={124}
-            className="rounded-lg grayscale hover:grayscale-0 hover:scale-105"
-          />
+          Homepage
         </Link>
         <div className="space-x-10 text-lg">
           <Link
-            href="/bedroom"
-            className=" shadow-md hover:shadow-[#c4ff70] hover:text-[#c4ff70] hover:font-bold rounded-lg  p-2"
+            href="/body"
+            className=" shadow-sm shadow-[#c4ff70] hover:bg-[#c4ff70] hover:font-bold hover:text-black rounded-lg  p-2"
           >
-            Bedroom
+            Body
           </Link>
           <Link
-            href="/kitchen"
-            className=" shadow-md hover:shadow-[#c4ff70] hover:text-[#c4ff70] hover:font-bold rounded-lg p-2"
+            href="/master"
+            className=" shadow-sm shadow-[#c4ff70] hover:bg-[#c4ff70] hover:font-bold hover:text-black rounded-lg  p-2"
           >
-            Kitchen
+            Master
           </Link>
           <Link
-            href="/view"
-            className=" shadow-md hover:shadow-[#c4ff70] hover:text-[#c4ff70] hover:font-bold rounded-lg p-2"
+            href="/training"
+            className=" shadow-sm shadow-[#c4ff70] hover:bg-[#c4ff70] hover:font-bold hover:text-black rounded-lg  p-2"
           >
-            View
+            Training
           </Link>
         </div>
       </nav>

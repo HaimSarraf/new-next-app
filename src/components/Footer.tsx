@@ -6,9 +6,9 @@ function Footer() {
   return (
     <div className="grid grid-cols-3 p-4 bg-gradient-to-l from-stone-400 to-gray-800">
       <div className="flex flex-row-reverse items-center justify-center gap-10">
-        <Link href={"https://booking.com"} target="_blank">
+        <Link href={"https://en.wikipedia.org/wiki/Bodybuilding"} target="_blank">
           <button className="shadow-md shadow-[#c4ff70] text-[#c4ff70] p-4 hover:bg-[#c4ff70] hover:text-black hover:rounded-lg hover:shadow-none">
-            Visit Booking.com
+            Read More about Bodybuiling on Wikipedia
           </button>
         </Link>
         <button
@@ -23,23 +23,23 @@ function Footer() {
 
       <div className="flex flex-col items-center justify-center"></div>
 
-      <div className=" flex flex-col gap-4 ">
+      <div className=" flex flex-col gap-4 text-center">
         <div className="shadow-sm shadow-[#c4ff70] text-[#c4ff70] p-2  hover:scale-x-105 hover:cursor-pointer hover:bg-[#c4ff70] hover:text-black hover:rounded-lg flex flex-row justify-around items-center ">
-          <h3 className="">Email</h3>
+          <h3 className="">Contact Us</h3>
           <span className="text-sm mx-14 lg:text-center font-light font-mono">
-            info@mountinview.com
+            info@example.com
           </span>
         </div>
         <div className="shadow-sm shadow-[#c4ff70] text-[#c4ff70] p-2  hover:scale-x-105 hover:cursor-pointer hover:bg-[#c4ff70] hover:text-black hover:rounded-lg flex flex-row justify-around items-center ">
           <h3 className="">Phone</h3>
           <span className="text-sm mx-10 font-light font-mono">
-            +568-5566856
+            +98-21-55558888
           </span>
         </div>
         <div className="shadow-sm shadow-[#c4ff70] text-[#c4ff70] p-2  hover:scale-x-105 hover:cursor-pointer hover:bg-[#c4ff70] hover:text-black hover:rounded-lg flex flex-row justify-around  items-center ">
           <h3 className="">Address</h3>
           <span className="text-xs mx-1 font-light font-mono">
-            moutainview-road56-num63
+            Iran-Tehran
           </span>
         </div>
       </div>
